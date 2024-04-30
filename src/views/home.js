@@ -22,8 +22,9 @@ const Home = (props) => {
           <div data-thq="thq-navbar-nav" className="home-desktop-menu">
             <nav className="home-links"></nav>
             <div className="home-buttons">
-              <button className="home-login buttonFlat">Login</button>
-              <button className="buttonFilled">Register</button>
+              <button type="button" className="button">
+                Button
+              </button>
             </div>
           </div>
           <div data-thq="thq-burger-menu" className="home-burger-menu">
@@ -55,7 +56,14 @@ const Home = (props) => {
                 <span className="home-nav52 bodySmall">Blog</span>
               </nav>
               <div className="home-buttons1">
-                <button className="buttonFlat">Login</button>
+                <button
+                  type="button"
+                  onclick
+                  autoFocus="true"
+                  className="buttonFlat"
+                >
+                  Login
+                </button>
                 <button className="buttonFilled">Register</button>
               </div>
             </div>
@@ -264,84 +272,6 @@ const Home = (props) => {
           </div>
         </div>
       </div>
-      <div className="home-banner">
-        <div className="bannerContainer home-banner1">
-          <h1 className="home-banner-heading heading2">About Textile Reps</h1>
-          <span className="home-banner-sub-heading bodySmall">
-            <span>
-              <span>
-                <span>
-                  Textile Reps is the leading platform that bridges the gap
-                  between textile manufacturers looking to expand their market
-                  reach and experienced sales representatives seeking new
-                  opportunities. Our platform simplifies the process of
-                  connecting businesses with the right sales talent, ensuring
-                  mutually beneficial partnerships. Join Textile Reps today to
-                  explore new possibilities in the textile industry.
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </span>
-              <span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </span>
-            </span>
-            <span>
-              <span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </span>
-              <span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </span>
-            </span>
-          </span>
-          <button className="buttonFilled">Learn More</button>
-        </div>
-      </div>
       <div className="home-faq">
         <div className="faqContainer">
           <div className="home-faq1">
@@ -350,8 +280,8 @@ const Home = (props) => {
                 <span>FAQ</span>
                 <br></br>
               </span>
-              <h2 className="home-text50 heading2">Common questions</h2>
-              <span className="home-text51 bodyLarge">
+              <h2 className="home-text36 heading2">Common questions</h2>
+              <span className="home-text37 bodyLarge">
                 <span>
                   Here are some of the most common questions that we get.
                 </span>
@@ -397,7 +327,7 @@ const Home = (props) => {
           </div>
           <div className="home-separator"></div>
           <div className="home-container7">
-            <span className="bodySmall home-text54">
+            <span className="bodySmall home-text40">
               © 2023 myCompany, All Rights Reserved.
             </span>
             <div className="home-icon-group1">
